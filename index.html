@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WikipediaViewrs -FCC</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container-fluid">
+<div class="row text-center">
+  <div class="col-12">
+    <h1 class="titulo">Wikipedia Viewer</h1>
+    <hr>
+  </div>
+ 
+  </div>  
+  
+<div class="row align-items-center justify-content-center">
+  <div class="col-4 text-right">
+   
+    <a href="https://en.wikipedia.org/wiki/Special:Random"  class="btn btn-info" id="random" target="_blank">Random Article</a> 
+  </div>
+  <div class="col-4">
+    
+<!--     search -->
+    <div class="cntr">
+	<div class="cntr-innr text-left">
+	  <label class="search" for="inpt_search">
+			<input id="inpt_search" type="text" />
+		</label>
+		<button class="btn btn-info" id="submit">Search</button>
+	</div>
+</div>
+<!--    fim seach  -->
+    
+  </div>
+  
+  
+  
+  </div>
+  <hr>
+  <div class="row align-items-center">
+    
+    <div class="col-12 text-center" id="results"><p>Results list will appear as append bellow</p>
+</div>
+  </div>
+
+
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
